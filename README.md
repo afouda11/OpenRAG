@@ -10,9 +10,9 @@ https://uw-ssec-tutorials.readthedocs.io/en/latest/AI_Postdoc_Workshop/module2/i
 
 Project files:
 
-- `rag_engine.py` -- core library handling the model downloading, PDF ingestion, vector indexing, chain construction, and the chat UI. For basic chatbot applications, no modifications are required.
-- `mlip_advisor_example_chatbot.py` -- An example usage script, which is a ready to go chatbot for advising which MLIP to use, given a chemical system and property type prompt from the user. Modify this code to make you own application.
-- `download_mlip_papers.py` -- code for downloading the MLIP literature from arxiv for the MLIP advisor example chatbot.
+- `rag_engine.py` -- core library handling the model downloading, PDF ingestion, vector indexing, chain construction, and the chat UI. For basic chatbot applications no modifications are required.
+- `mlip_advisor_example_chatbot.py` -- Example usage script providing a "ready to-go" chatbot for advising which MLIP to use, given a chemical system and property type prompt from the user. Modify this code to make you own application.
+- `download_mlip_papers.py` -- Download script for selected arxiv MLIP literature, used for the MLIP advisor example.
 
 ## Requirements
 
