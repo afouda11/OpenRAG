@@ -1,0 +1,31 @@
+name: openrag
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - pip
+  - pip:
+      - langchain
+      - langchain-community
+      - langchain-core
+      - langchain-huggingface
+      - langchain-qdrant
+      - langchain-text-splitters
+      - llama-cpp-python
+      - huggingface-hub
+      - sentence-transformers
+      - transformers
+      - torch
+      - pymupdf
+      - qdrant-client
+      - panel
+      - bokeh
+      - accelerate
+      - safetensors
+      - tokenizers
+      - tiktoken
